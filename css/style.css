@@ -20,6 +20,12 @@
 	max-width: 1200px;
 }
 
+@font-face {
+	font-family: "ailerons";
+	src: url("../font/Ailerons-Typeface.otf"); /* para IE */
+	src: local("ailerons"), url("../font/Ailerons-Typeface.otf") format("opentype");
+}
+
 h1 {
 	font-family: "ailerons", sans-serif;
 	color: var(--dark-blue);
